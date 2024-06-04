@@ -8,6 +8,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 h1 {
@@ -62,6 +63,45 @@ ul {
     height: 500px;
 }
 
+.boxes .information {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.boxes .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 40px;
+    height: 500px;
+    gap: 30px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.boxes p {
+    font-size: 18px;
+}
+
+.boxes img {
+    height:auto;
+    width: 200px;
+    border: 2px solid #1f2937;
+    border-radius: 10px;
+}
+
 .header img {
     height: 300px;
     width: 500px;
@@ -80,10 +120,16 @@ ul {
     border: 0;
     border-radius: 6px;
     font-weight: 600;
+    font-size: 15px;
     padding: 10px 0;
-    width: 110px;
+    width: 120px;
     background-color: #3882f6;
     color:#f9faf8;
+}
+
+.signup:hover {
+    background-color: #6aa0f7;
+    cursor: pointer;
 }
 
 footer {
@@ -92,4 +138,67 @@ footer {
     height: 72px;
     color: #efe7eb;
     padding: 25px;
+}
+
+.reviewsection {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reviews {
+    padding: 150px 450px;
+}
+
+.review {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    padding-bottom: 20px;
+}
+
+.signed {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calltoaction {
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+}
+
+.calltoaction .cta {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+    padding: 60px 140px;
+    border-radius: 10px;
+    color: #f9faf8;
+}
+
+.chp p {
+    font-size: 18px;
+}
+
+.ctasignup {
+    border: 0;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 0;
+    width: 120px;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    color:#f9faf8;
+}
+
+.ctasignup:hover {
+    background-color: #6aa0f7;
+    cursor: pointer;
 }
